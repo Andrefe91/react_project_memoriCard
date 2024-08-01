@@ -3,9 +3,7 @@ import '../styles/App.css'
 import getListAndCachePokemons from '../scripts/getPokeData'
 import Welcome from '../modules/Welcome'
 import Game from '../modules/Game'
-import { getCache } from '../scripts/loadAndSave'
 
-// let list = getListAndCachePokemons(cache, 2, 4);
 
 
 function App() {
