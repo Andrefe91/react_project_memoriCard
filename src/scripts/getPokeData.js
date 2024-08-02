@@ -31,9 +31,9 @@ async function getPokeData(cache, list) {
   setCache(cache);
 }
 //Wrapper for the other two functions in this file
-export default function getListAndCachePokemons(listSize, maxNumber){
+export default async function getListAndCachePokemons(listSize, maxNumber){
   let cache =  (getCache() || {}); //Defining the cache object
   let list = getRandomList(listSize, maxNumber);
-  getPokeData(cache, list);
+  await getPokeData(cache, list);
   return list;
 }

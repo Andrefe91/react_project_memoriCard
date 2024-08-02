@@ -9,8 +9,8 @@ import Game from '../modules/Game'
 function App() {
   const [list, setList] = useState([]);
 
-  function getList() {
-    let newList = getListAndCachePokemons(15, 125);
+  async function getList() {
+    let newList = await getListAndCachePokemons(20, 250);
     console.log(newList); //Logging the new list to the console for debugging purposes
     setList([...newList]); //Updating the list with new data
   }

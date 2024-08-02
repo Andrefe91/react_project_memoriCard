@@ -1,0 +1,53 @@
+p {
+    margin: 0.1em;
+}
+
+.card {
+    outline: 2px solid rgb(216, 216, 216);
+    border-radius: 0.5em 0.5em 0 0.5em;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 0.5em;
+    transition: 0.2s;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        transform: translate(-0.25rem, -0.25rem);
+        box-shadow: 0.35rem 0.35rem rgb(6, 30, 238);
+    }
+
+    &:active {
+        transform: translate(0);
+        box-shadow: none;
+    }
+}
+
+.imageContainer {
+    outline: 1px solid rgb(96, 255, 4);
+    border-radius: 0.5em;
+    width: 200px;
+    height: 200px;
+}
+
+.pokemonImage {
+    border-radius: 0.5em;
+    object-fit: cover;
+    width: 200px;
+}
+
+p.name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p.type {
+    font-size: 1.1em;
+}
+
+p.number {
+    color: gold;
+    text-align: right;
+    font-style: italic;
+}
