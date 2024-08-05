@@ -22,7 +22,7 @@ async function getPokeData(cache, list) {
 
       let pokemonName = pokemon.name[0].toUpperCase() + pokemon.name.slice(1); // To Title
       let pokemonImage = pokemon.sprites.other["official-artwork"].front_default //URL to image
-      let pokemonType = pokemon.types[0].type.name;
+      let pokemonType = pokemon.types[0].type.name[0].toUpperCase() + pokemon.types[0].type.name.slice(1); //To title
       cache[id] = {pokemonName, pokemonImage, pokemonType};
 
       console.log(`getPokeData: Hit the Api for the pokemon number ${id} - ${pokemonName}`);

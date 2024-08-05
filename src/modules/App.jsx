@@ -23,7 +23,7 @@ function App() {
       {list.length == 0 ? <Welcome getList={getList}/> : <Game list={list} getList={getList}/>}
       {loading &&
         <div className="loaderContainer">
-          <div class="loader"></div>
+          <div className="loader"></div>
         </div>
       }
     </>
