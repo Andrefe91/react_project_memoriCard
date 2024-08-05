@@ -24,6 +24,21 @@ p {
     }
 }
 
+.card * {
+    pointer-events: none;
+    user-select: none;
+}
+
+.container.disabled {
+    pointer-events: none;
+}
+
+.container.disabled *{
+    color: gray;
+    outline-color: gray;
+    filter: grayscale(100%);
+}
+
 .imageContainer {
     outline: 1px solid rgb(96, 255, 4);
     border-radius: 0.5em;

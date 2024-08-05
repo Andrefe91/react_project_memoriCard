@@ -5,7 +5,7 @@ export default function Welcome({getList}) {
         <>
             <div>Welcome to the game</div>
             <div>To start, press the Button !</div> <br />
-            <button onClick={getList}>Generate List</button>
+            <button className='bn5' onClick={getList}>Generate List</button>
         </>
     )
 }

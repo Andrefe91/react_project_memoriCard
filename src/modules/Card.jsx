@@ -1,12 +1,12 @@
 import '../styles/Card.css'
 
-export default function Card({pokemon, number, onClick}) {
+export default function Card({pokemon, number, onClick, gameOver}) {
     let name = pokemon.pokemonName;
     let imgLink = pokemon.pokemonImage;
     let type = pokemon.pokemonType;
 
     return (
-        <div className="card" onClick={onClick}>
+        <div className="card" onClick={onClick} number={number}>
             <div className="imageContainer">
                 <img className='pokemonImage' src={imgLink} alt={name} />
             </div>
