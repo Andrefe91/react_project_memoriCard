@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -14,11 +16,14 @@
 
 body {
   display: flex;
+  flex-direction: column;
   min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
+  margin: 0;
 }
 
 .bn5 {
+  width: 10em;
   margin-top: 1em;
   padding: 0.6em 2em;
   height: 3em;

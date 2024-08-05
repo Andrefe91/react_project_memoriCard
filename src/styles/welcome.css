@@ -1,0 +1,7 @@
+.rules {
+    max-width: 40em;
+    border: 2px dashed ;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0 0.5em 1em 0.5em;
+}

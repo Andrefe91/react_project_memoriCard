@@ -1,5 +1,11 @@
 .container {
+    max-width: 1280px;
+    margin: 2em auto auto auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+hr {
+    width: 90%;
 }

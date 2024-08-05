@@ -54,7 +54,6 @@ export default function Game({list, getList}) {
 
     return (
         <>
-            <div>Game</div>
             <GameInformation topScore={topScore} gameOver={gameOver} selectedCards={selectedCards}/>
             <button className='bn5' onClick={handleRestartGame}>Restart Game</button>
             <hr />

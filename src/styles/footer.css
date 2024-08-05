@@ -1,0 +1,21 @@
+Footer {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    color: rgb(39, 39, 39);
+    background-color: #46b59b;
+    margin-top: 2em;
+}
+
+Footer p {
+    padding-right: 2em;
+}
+
+Footer a {
+    color: #003dad;
+
+    &:hover {
+        color: rgb(53, 225, 255);
+        text-shadow: 1px 1px 0px #f1ed1a;
+    }
+}

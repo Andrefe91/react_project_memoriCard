@@ -1,4 +1,4 @@
-p {
+.card p {
     margin: 0.1em;
 }
 
@@ -15,7 +15,7 @@ p {
 
     &:hover {
         transform: translate(-0.25rem, -0.25rem);
-        box-shadow: 0.35rem 0.35rem rgb(6, 30, 238);
+        box-shadow: 0.35rem 0.35rem rgb(107, 121, 250);
     }
 
     &:active {
@@ -40,7 +40,7 @@ p {
 }
 
 .imageContainer {
-    outline: 1px solid rgb(96, 255, 4);
+    outline: 1px solid rgb(49, 255, 100);
     border-radius: 0.5em;
     width: 200px;
     height: 200px;
